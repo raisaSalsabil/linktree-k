@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("bg/trees.png");
+
+}
+
+.container {
+    margin:10px;
+    padding:20px;
+}
+
+.section {
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-section {
+    font-size: larger;
+}
+
+.header-section img {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 130px;
+}
+
+.sub-section {
+    margin: 10px;
+}
+
+.inner-link {
+    background-color: skyblue;
+    padding:20px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.1s ease-in;
+}
+
+.inner-link:hover {
+    background-color: rgba(93, 174, 189, 0.438);
+    font-size: large;
+    transition: .3s;
+}
+
+.sub-head {
+    font-size: 13px;
+}
+
+/* Media Responsive */
+
+@media screen and (max-width: 720px) {
+    .section {
+        width: 100%;
+    }
+}
